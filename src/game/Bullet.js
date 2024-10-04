@@ -22,7 +22,7 @@ export class Bullet {
         if (!Bullet.spriteManager) {
             Bullet.spriteManager = new BABYLON.SpriteManager(
                 "bulletManager",
-                "assets/textures/bullet.png",
+                "./assets/textures/bullet.png",
                 100,  // Capacity
                 { width: 26, height: 22 },  // Sprite size
                 this.scene

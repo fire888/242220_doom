@@ -29,7 +29,7 @@ export class Level {
         skyboxMaterial.backFaceCulling = false;
         skyboxMaterial.disableLighting = true;
         skyboxMaterial.reflectionTexture = new EquiRectangularCubeTexture(
-            "/assets/textures/skybox.png",
+            "./assets/textures/skybox.png",
             this.scene,
             1024
         );

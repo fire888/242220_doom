@@ -28,7 +28,7 @@ export class Monster {
         if (!Monster.spriteManager) {
             Monster.spriteManager = new BABYLON.SpriteManager(
                 spriteManagerName,
-                "assets/textures/cacodemon.png",
+                "./assets/textures/cacodemon.png",
                 100,  // Capacity
                 { width: 1510 / 5, height: 2114 / 7 },  // Sprite size
                 this.scene

@@ -11,6 +11,8 @@ export class Player {
         this.camera.checkCollisions = true;
         this.camera.minZ = 0.01;
         this.camera.ellipsoid = new BABYLON.Vector3(1, 0.8, 1);
+        this.camera.angularSensibility = 1 / 0.002; // Adjust this value to change sensitivity
+        this.camera.inertia = 0; // Disable mouse damping
 
         this.weapons = [
             new Pistol(this.scene, this.camera),
@@ -18,7 +20,7 @@ export class Player {
         ];
         this.currentWeaponIndex = 0;
         this.updateWeaponVisibility();
-
+        
         this.setupInput();
     }
 

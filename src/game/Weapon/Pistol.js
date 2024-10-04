@@ -22,7 +22,7 @@ export class Pistol {
         this.pistolImage.horizontalAlignment = Control.HORIZONTAL_ALIGNMENT_CENTER;
         this.pistolImage.verticalAlignment = Control.VERTICAL_ALIGNMENT_BOTTOM;
         this.pistolImage.top = `${parseInt(50 / 1.25)}px`;
-        this.pistolImage.source = "assets/textures/pistol.png";
+        this.pistolImage.source = "./assets/textures/pistol.png";
         this.pistolImage.cellId = 0;
         this.pistolImage.cellWidth = 800;
         this.pistolImage.cellHeight = 420;

@@ -16,7 +16,7 @@ export class Decal {
 
     loadTextureAtlas() {
         if (!Decal.textureAtlas) {
-            Decal.textureAtlas = new BABYLON.Texture("assets/textures/decals.png", this.scene);
+            Decal.textureAtlas = new BABYLON.Texture("./assets/textures/decals.png", this.scene);
             Decal.textureAtlas.hasAlpha = true;
         }
     }

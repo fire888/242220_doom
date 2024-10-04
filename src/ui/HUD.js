@@ -82,7 +82,7 @@ export class HUD {
             spriteTexture.height = `${digitHeight}px`;
             spriteTexture.left = `${i * digitWidth - totalWidth / 2}px`;  // Center the digits
             spriteTexture.top = "0px";
-            spriteTexture.source = `assets/textures/digits.png`;
+            spriteTexture.source = `./assets/textures/digits.png`;
             spriteTexture.cellId = digit;
             spriteTexture.cellWidth = 64;
             spriteTexture.cellHeight = 64;

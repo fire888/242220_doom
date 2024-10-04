@@ -14,7 +14,7 @@ export class BloodAnimation {
         if (!BloodAnimation.spriteManager) {
             BloodAnimation.spriteManager = new BABYLON.SpriteManager(
                 "bloodManager",
-                "assets/textures/blood.png",
+                "./assets/textures/blood.png",
                 100,  // Capacity
                 256,  // Sprite size
                 this.scene
